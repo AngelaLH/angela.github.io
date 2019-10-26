@@ -1,84 +1,73 @@
 remote_theme: sujaykundu777/devlopr-jekyll  # Don't touch ( required for this theme)
 
 # Edit your preferences below 
-title: John Doe
-subtitle: Full Stack Web Developer
+title: Angela Hollings
+subtitle: Computer Systems Engineering Student
 description: >- # this means to ignore newlines until "baseurl:"
-  John Doe uses devlopr-jekyll - a Jekyll Theme Built For Developers
+  A computer systems engineering student passionate about the intersection of AI and IoT
 
-url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://angela.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: Blog
-      url: /blog
     - text: About Me
       url: /about
     - text: Contact Me
       url : /contact
-    - text: Sample Page
-      url: /sample-page
 
 # Edit these details 
 
-author_logo: profile.png
-author: John Doe
-author_bio: Hi, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.  
-author_email: "johndoe@gmail.com"
-author_location: India
-author_website_url: "http://johndoe.com"
+author_logo: profile.jpg
+author: Angela Hollings
+author_bio: A computer systems engineering student passionate about the intersection of AI and IoT 
+author_email: "ange.hollings@gmail.com"
+author_location: Auckland, New Zealand
+author_website_url: "https://angela.github.io"
 
 author_work_experiences: 
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: Biztalk Toastmasters
+              company_logo: Toastmasters.png
+              company_url: https://www.facebook.com/BiztalkToastmasters/
+              designation: President
+              description: Lead a team of 8 to foster a growth culture in our public speaking club of 20+ members
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Robogals
+              company_logo: robogals.png
+              company_url: https://www.facebook.com/RobogalsAKL/
+              designation: Schools Manager
+              description: Organised 16+ Robotics workshops for over 300 kids to foster enthusiasm in STEM in young girls
               visibility: true
 
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: uoa.png
+                college_name: The University of Auckland
+                college_url: https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/computer-systems-engineering.html
+                college_degree: Computer Systems Engineering
+                description: Course work includes Object Oriented Programming, Fundamentals of Computer Engineering, Analogue and Digital Design
                 visibility: true
 
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_thumbnail: arduino.png
+                project_title: Arduino Programming
+                project_description: Programmed 18+ circuits to enchance my electronics programming over the summer
+                project_url: bit.do/AngelaC
                 visibility: true
-              - project_thumbnail: programmingebooks.png
-                project_title: Programming Ebooks
-                project_description: A Platform to easily find and read programming books
-                project_url: https://programmingebooks.com
+              - project_thumbnail: kmeans.jpg
+                project_title: K-means Algorithm in MatLab
+                project_description: Developed an efficient k-means algorithm from scratch in matlab, taking 4 seconds on average for 5 colours
+                project_url: https://github.com/AngelaLH/MatlabProject
+                visibility: true
+
+author_writing_details:
+              - writing_thumbnail: uoa.png
+                writing_title: Part II Student Blog
+                writing_description: Created 6 blogs  for 1000+ Part I Engineering Students to study Computer Systems Engineering 
+                writing_url: https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/computer-systems-engineering.html
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  johndoe
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
-
-#for comments using disqus
-disqus_shortname: sujay-kundu  
-
-# wakatime username
-wakatime_username: sujaykundu777
+github_username:  AngelaLH
+linkedin_username: angela-hollings
 
 # syntax highlighter
 markdown: kramdown
@@ -92,6 +81,7 @@ google_analytics: UA-46783401-10
 show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
+show_author_writing_details: true
 
 # dont touch this unless required
 plugins:
